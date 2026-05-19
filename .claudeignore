@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Prisma generated client
+generated/
+
+# Migrations (auto-generated SQL, not useful for Claude to read)
+prisma/migrations/
+
+# Logs
+*.log
+logs/
+
+# Test coverage
+coverage/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Lock files (too noisy)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
